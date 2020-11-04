@@ -1,0 +1,188 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@ViewBag.Title | Personal Site</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" href="~/Content/css/animate.css">
+    <link rel="stylesheet" href="~/Content/css/main.css">
+    <link rel="stylesheet" href="~/Content/css/Custom.css">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark bg-dark">
+        <div>
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")"><img src="~/Content/images/icon4.jpg" alt="logo" width="60" height="60" class="d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Resume", "Home")">My Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Projects", "Home")">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Links", "Home")">Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Contact")">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="gradient"></div>
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                
+                <!-- Grid column -->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!-- Grid column -->
+                @*<div class="col-lg-2 col-md-4 mx-auto">
+                        <!-- Links -->
+                        <h5 class="mt-3 mb-3">information</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">creat new account</a>
+                            </li>
+                            <li>
+                                <a href="#!">checkout</a>
+                            </li>
+                            <li>
+                                <a href="#!">my cart</a>
+                            </li>
+                            <li>
+                                <a href="#!">other information</a>
+                            </li>
+                        </ul>
+                    </div>*@
+                <!-- Grid column -->
+                <!-- Grid column -->
+                @*<div class="col-lg-2 col-md-4 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="mt-3 mb-3">policies & Info</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Terms Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#!">website polocy</a>
+                            </li>
+                            <li>
+                                <a href="#!">Policy for Sellers  </a>
+                            </li>
+                            <li>
+                                <a href="#!">Policy for Buyers</a>
+                            </li>
+                            <li>
+                                <a href="#!">Shipping & Refund </a>
+                            </li>
+                            <li>
+                                <a href="#!">Wholesale Policy</a>
+                            </li>
+                        </ul>
+                    </div>*@
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+        <br />
+        <!-- Copyright -->
+        <div class="footer-copyright text-center">
+            <p>
+                &copy; @DateTime.Now.Year  Josh Ready Personal Site
+            </p>
+            @*<p>© 2017, All Rights Reserved. <a href="https://www.template.net/editable/websites/html5">JumperTheme</a> , Designed by <a href="https://www.template.net/editable/websites/html5">Template.net</a></p>*@
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="~/Content/js/animate.js"></script>
+    <script src="~/Content/js/custom.js"></script>
+
+    <!--render scripts section added-->
+    @RenderSection("scripts", required: false)
+
+    <script>
+        $('.carousel').carousel({
+            interval: 2000
+        })
+
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+
+
+    @* Below is the code I added to change my "active" highlight on the navbar *@
+    <script>
+        $(function () {
+            //Use the DOM (Document Object Model) to locate the current selection for applying the active class to highlight the appropriate link in the Nav. (.navbar-nav > li a)
+            //$('.navbar-nav > li a').each(function () {
+            //    if ($(this).attr('href') == window.location.pathname) {
+            //        $(this).addClass('active');
+            //    }
+            //});
+
+            //If the active class is placed on the li in the template, use the following:
+            $('.navbar-nav > li').each(function () {
+                if ($(this).find('a').attr('href') == window.location.pathname) {
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

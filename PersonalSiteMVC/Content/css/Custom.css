@@ -1,0 +1,74 @@
+﻿body {
+    background-color: cornflowerblue;
+    color: yellow;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+section {
+    background-color: cornflowerblue;
+    color: yellow;
+}
+
+.class-link {
+    color: orange;
+}
+.lead {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: orange;
+}
+#navbarResponsive {
+    position: fixed;
+    right: 0;
+    top: 4em;
+    padding-right: 2em;
+}
+/*section ul li {
+    display: block;
+}*/
+.classLinks li {
+    display: list-item;
+    padding: .4em 1em;
+    text-align: center;
+}
+#classMates {
+    text-align: center;
+}
+
+#contactUs .form-group .col-md-4 {
+    margin: auto;
+}
+
+#contactUs {
+    text-align: center;
+    border-color: orange;
+    border-width: 2em;
+}
+
+    #contactUs .form-group .col-md-1 {
+        margin: auto;
+    }
+
+    #contactUs .form-group .col-md-4 #message {
+        margin: auto;
+        width: inherit;
+    }
+
+textarea {
+    width: inherit;
+    overflow: auto;
+    height: 300px;
+    /*resize: vertical;*/
+}
+.page-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/*ul.a {
+    list-style-type: circle;
+}*/
